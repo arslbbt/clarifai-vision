@@ -1,1 +1,1 @@
-# vizifiy
+# clarifai vision
