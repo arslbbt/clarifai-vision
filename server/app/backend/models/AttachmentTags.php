@@ -38,7 +38,7 @@ class AttachmentTags extends \yii\db\ActiveRecord {
     public function rules() {
         return [
             [['id', 'tag_code','tag_percentage'], 'safe'],
-            [['id', 'attachment_id','tag_percentage', 'created_at', 'updated_at'], 'integer'],
+            [['id', 'attachment_id', 'created_at', 'updated_at'], 'integer'],
         ];
     }
 
